@@ -191,7 +191,7 @@ var stopwatch = {
   timeCountdown: function(t) {
 
     //  Takes the current time in seconds and convert it to minutes and seconds (mm:ss).
-    var minutes = 29- Math.floor(t / 60);
+    var minutes = 14- Math.floor(t / 60);
     var seconds = 10- (t - (minutes * 60));
     
     if (seconds < 10) {
@@ -199,7 +199,7 @@ var stopwatch = {
     }
 
     if (minutes === 0) {
-      minutes = "29";
+      minutes = "14";
     }
 
     else if (minutes < 10) {
